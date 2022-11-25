@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Student ID Form</title>
+</head>
+
+<body>
+	<h1>University of the Cordilleras</h1>
+	<h2>Student ID Form</h2>
+
+	<form action = "form.php" method="GET">
+	Student ID number <input type="text" name="id" size="20" maxlength="9"><br><br>
+	Last name <input type="text" name="lname" size="20" maxlength="10"><br><br>
+	First name <input type="text" name="fname" size="20" maxlength="10"><br><br>
+	Middle Initial <input type="text" name="mi" size="10" maxlength="1"><br><br>
+	
+
+	<h2>College Department</h2>
+
+	<select name="deptname">
+	<option>CCJE</option>
+	<option>CTE</option>
+	<option>CAS</option>
+	<option>CEA</option>
+	<option>CON</option>
+	<option>CITCS</option>
+	<option>COA</option>
+	<option>CBA</option>
+	<option>CHTM</option>
+	<option>COL</option>
+
+	</select>
+
+	<h2>Year Level</h2>
+
+	<input type="radio" name="yr" value="first"> 1st Year<br>
+	<input type="radio" name="yr" value="second"> 2nd Year<br>
+	<input type="radio" name="yr" value="third"> 3rd Year<br>
+
+
+	<h2>Infomation &#38; Emergency Contact</h2>
+	Address <input type="text" name="addrss" size="40" maxlength="100"><br><br>
+	Birthday<input type="date" name="bday"><br><br>
+	Emergency Contact <input type="text" name="cont" size="20" maxlength="30"><br><br>
+	Contact Number <input type="text" name="num" size="20" maxlength="30"><br><br>
+
+
+	<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
